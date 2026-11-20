@@ -29,7 +29,6 @@ body {
     linear-gradient(90deg, transparent 96%, rgba(139,125,149,.10) 96%),
     linear-gradient(rgba(139,125,149,.08) 1px, transparent 1px);
   background-size: 26px 26px;
-  font-family: Georgia, "Times New Roman", serif;
 }
 .site-window {
   width: min(1120px, 100%);
@@ -61,7 +60,6 @@ body {
   border-radius: 50%;
   color: #17141a;
   background: #f0edf1;
-  font: 700 22px Arial, sans-serif;
   line-height: 1;
 }
 .window-brand {
@@ -107,7 +105,7 @@ body {
   padding: 18px;
   color: #776681;
   background: linear-gradient(135deg, #f4eff7, #dcd3e3);
-  font: 600 .9rem Arial, sans-serif;
+  font: 600 .9rem;
 }
 .side-block {
   border-top: 1px solid #aaa3ad;
@@ -125,6 +123,7 @@ body {
   color: #17141a;
   font-size: 1.15rem;
   font-weight: bold;
+  font - family: 'matcha', sans-serif;
 }
 .side-link {
   display: block;
@@ -136,7 +135,7 @@ body {
   padding: 5px 8px;
   margin: 7px 0;
   background: rgba(255,255,255,.18);
-  font: 1rem Arial, sans-serif;
+  font: 1rem;
 }
 .side-link:hover, .side-link.active {
   color: #fff;
@@ -144,7 +143,7 @@ body {
   border-color: var(--purple);
 }
 .side-note {
-  font: .88rem/1.5 Arial, sans-serif;
+  font: .88rem/1.5;
   text-align: center;
   overflow-wrap: anywhere;
 }
@@ -198,12 +197,12 @@ body {
   border-radius: 7px;
   padding: 18px 22px;
   margin: 14px 0;
-  font: .94rem/1.55 Arial, sans-serif;
+  font: .94rem/1.55;
 }
 .content-box p:last-child { margin-bottom: 0; }
 .content-box h2, .content-box h3 {
   color: #554361;
-  font: bold 1.15rem Georgia, serif;
+  font: bold 1.15rem;
   margin: 0 0 9px;
 }
 .feature-photo {
@@ -219,8 +218,10 @@ body {
   padding: 14px;
   background: rgba(255,255,255,.16);
 }
-.mini-card h3 { font: bold 1rem Georgia, serif; margin: 0 0 6px; color: #594566; }
-.mini-card p { font: .88rem/1.5 Arial, sans-serif; margin: 0; }
+.mini-card h3 { font: bold 1rem; margin: 0 0 6px; color: #594566; }
+
+.mini-card p { font: .88rem/1.5; margin: 0; }
+
 .form-control, .form-select {
   border-color: #aaa3ad !important;
   border-radius: 6px !important;
@@ -234,8 +235,9 @@ body {
 .site-footer {
   text-align: center;
   color: #66576f;
-  font: .78rem Arial, sans-serif;
+  font: .78rem;
   padding: 12px 0 2px;
+  font - family: 'matcha', sans-serif;
 }
 @media (max-width: 760px) {
   body { padding: 10px; }
@@ -265,8 +267,6 @@ body {
   .profile-tag { font-size: .8rem; }
 }
 
-
-/* Compact chat-style credits pop-up inspired by the supplied reference */
 .credits-dialog {
   max-width: 390px;
   margin-left: auto;
@@ -293,7 +293,7 @@ body {
   gap: 8px;
   padding: 2px 3px 11px;
   color: #f8eaf0;
-  font: 600 .78rem Arial, sans-serif;
+  font: 600 .78rem;
   letter-spacing: .04em;
   text-align: center;
 }
@@ -305,7 +305,7 @@ body {
   border-radius: 14px;
   background: #927d88;
   color: #fff9fc;
-  font: .88rem/1.5 Arial, sans-serif;
+  font: .88rem/1.5;
 }
 .credits-message strong {
   color: #fff;
@@ -314,7 +314,7 @@ body {
 .credits-prompt {
   padding: 5px 2px 9px;
   color: #eadce4;
-  font: .76rem Arial, sans-serif;
+  font: .76rem;
   text-align: center;
 }
 .credits-enter {
@@ -325,8 +325,9 @@ body {
   border-radius: 10px;
   background: #f4dfe9;
   color: #4c3d47;
-  font: bold .9rem Arial, sans-serif;
+  font: bold .9rem;
   cursor: pointer;
+  font - family: 'matcha', sans-serif;
 }
 .credits-enter:hover {
   background: #e8cbd9;
