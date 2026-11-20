@@ -123,7 +123,7 @@ body {
   color: #17141a;
   font-size: 1.15rem;
   font-weight: bold;
-  font - family: 'matcha', sans-serif;
+  font-family: 'matcha', sans-serif;
 }
 .side-link {
   display: block;
@@ -237,8 +237,7 @@ body {
   color: #66576f;
   font: .78rem;
   padding: 12px 0 2px;
-  font - family: 'matcha', sans-serif;
-}
+  font-family: 'matcha', sans-serif;}
 @media (max-width: 760px) {
   body { padding: 10px; }
   .site-window { height: calc(100vh - 20px); min-height: 600px; }
@@ -327,7 +326,7 @@ body {
   color: #4c3d47;
   font: bold .9rem;
   cursor: pointer;
-  font - family: 'matcha', sans-serif;
+  font-family: 'matcha', sans-serif;
 }
 .credits-enter:hover {
   background: #e8cbd9;
