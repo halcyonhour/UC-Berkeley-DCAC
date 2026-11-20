@@ -8,6 +8,15 @@
   --line: #aaa3ae;
   --white: #f8f6f9;
 }
+
+.font-matcha {
+  font-family: 'matcha', sans-serif;
+}
+
+.font-atwriter {
+  font-family: 'atwriter', sans-serif;
+}
+
 * { box-sizing: border-box; }
 html { min-height: 100%; }
 body {
