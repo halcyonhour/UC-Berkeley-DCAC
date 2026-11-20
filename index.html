@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | DCAC</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="site-window">
+  <header class="window-bar">
+    <div class="window-controls">
+      <span class="window-circle" aria-hidden="true">‹</span>
+      <span class="window-circle" aria-hidden="true">☰</span>
+    </div>
+    <div class="window-brand">Destination College Advising Corps</div>
+    <div class="window-controls">
+      <span class="window-circle" aria-hidden="true">−</span>
+      <span class="window-circle" aria-hidden="true">×</span>
+    </div>
+  </header>
+  <div class="window-body">
+    
+    <aside class="sidebar">
+      <div class="sidebar-photo"><div class="photo-placeholder">♡<br>DCAC photo<br><small>Replace with an approved image</small></div></div>
+      <div>
+        <div class="side-block">
+          <span class="side-heading">navigation:</span>
+          <a class="side-link active" href="index.html">Home</a><a class="side-link " href="details.html">About DCAC</a><a class="side-link " href="join.html">How to Join</a><a class="side-link " href="advisor.html">Meet Malia</a>
+        </div>
+        <div class="side-block">
+          <div class="side-note"><strong>extra info:</strong><br>College guidance • academic support • future goals</div>
+        </div>
+        <div class="side-stamp">D C A C</div>
+      </div>
+    </aside>
+    <main class="main-content">
+      
+<div class="profile-line"><h1>Destination College Advising Corps</h1><span class="profile-tag">DCAC @ OT</span></div>
+<div class="action-row">
+  <a class="action-btn" href="join.html">＋ join us!</a>
+  <a class="action-btn" href="details.html">learn more!</a>
+  <a class="action-btn" href="advisor.html">meet your advisor ✧</a>
+</div>
+<section class="content-box">
+  <h2>Welcome to DCAC ♡</h2>
+  <p>College planning can feel like a big process, but you do not have to figure it out alone. Destination College Advising Corps (DCAC), connected with the University of California, Berkeley, is here as a resource for OT students exploring college and academic opportunities.</p>
+</section>
+<hr class="content-divider">
+<section class="content-box">
+  <h2>about the program</h2>
+  <p>Learn what DCAC is, what support is available, and how to connect with the program. This website is designed for OT sophomores and juniors who are interested in getting assistance with college and academics.</p>
+</section>
+<div class="feature-photo"><div class="photo-placeholder">✿<br>Senior cohorts &amp; DCAC moments<br><small>Insert your DCAC group photo here</small></div></div>
+<section class="content-box">
+  <h2>where would you like to go next?</h2>
+  <div class="section-grid">
+    <div class="mini-card"><h3>01 · About DCAC</h3><p>Find out what the program is about.</p><a href="details.html">explore →</a></div>
+    <div class="mini-card"><h3>02 · How to Join</h3><p>See how to get connected.</p><a href="join.html">get started →</a></div>
+    <div class="mini-card"><h3>03 · Meet Malia</h3><p>Meet your college advisor.</p><a href="advisor.html">say hello →</a></div>
+    <div class="mini-card"><h3>04 · Your next step</h3><p>Start exploring your college journey.</p><a href="join.html">join us →</a></div>
+  </div>
+</section>
+<section class="content-box"><h2>one step at a time ♡</h2><p>Explore the pages using the navigation links. Scroll within the page panel to see all the information.</p></section>
+
+      <div class="site-footer">♡ Destination College Advising Corps · University of California, Berkeley ♡</div>
+    </main>
+  </div>
+</div>
+
+<!-- Compact homepage credits pop-up inspired by the chat-window reference -->
+<div class="modal fade" id="creditsModal" tabindex="-1" aria-labelledby="creditsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered credits-dialog">
+    <div class="modal-content credits-modal">
+      <div class="credits-screen">
+        <div class="credits-topline">
+          <span class="credits-dot">♡</span>
+          <span id="creditsModalLabel">a quick introduction</span>
+          <span class="credits-dot">✧</span>
+        </div>
+        <div class="credits-message">
+          <strong>website created by:</strong><br>
+          [Your Name]
+        </div>
+        <div class="credits-message">
+          <strong>reason for this website:</strong><br>
+          To introduce OT students to DCAC and help them find college and academic advising resources.
+        </div>
+        <div class="credits-prompt">click enter to explore ♡</div>
+        <button type="button" class="credits-enter" data-bs-dismiss="modal">enter</button>
+      </div>
+    </div>
+  </div>
+</div>
+\n<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Show the credits pop-up whenever a visitor opens the homepage.
+  document.addEventListener("DOMContentLoaded", function () {
+    const creditsElement = document.getElementById("creditsModal");
+    if (creditsElement && window.bootstrap) {
+      const creditsPopup = new bootstrap.Modal(creditsElement, {
+        backdrop: true,   // clicking outside the box closes it
+        keyboard: true    // Escape key closes it
+      });
+      creditsPopup.show();
+    }
+  });
+</script>
+</body>
+</html>
